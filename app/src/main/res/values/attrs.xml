@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NineGridLayout">
+        <attr name="sapcing" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PraiseListView">
+        <attr name="item_color" format="color"/>
+        <attr name="item_selector_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandTextView">
+        <attr name="showLines" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RxAutoImageView">
+        <attr name="ImageSrc" format="reference"/>
+    </declare-styleable>
+
+
+    <!--首页的跑马灯-->
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference"/>
+        <attr name="mvAnimDuration" format="integer|reference"/>
+        <attr name="mvTextSize" format="dimension|reference"/>
+        <attr name="mvTextColor" format="color|reference"/>
+        <attr name="mvSingleLine" format="boolean"/>
+        <attr name="mvFont" format="reference"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="mvDirection">
+            <enum name="bottom_to_top" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+            <enum name="right_to_left" value="2"/>
+            <enum name="left_to_right" value="3"/>
+        </attr>
+    </declare-styleable>
+
+
+
+
+
+
+
+
+
+
+    <!--仿支付宝输入框-->
+    <declare-styleable name="PasswordEditText">
+        <!-- 密码的个数 -->
+        <attr name="passwordNumber" format="integer" />
+        <!-- 密码圆点的半径 -->
+        <attr name="passwordRadius" format="dimension" />
+        <!-- 密码圆点的颜色 -->
+        <attr name="passwordColor" format="color" />
+        <!-- 分割线的颜色 -->
+        <attr name="divisionLineColor" format="color" />
+        <!-- 分割线的大小 -->
+        <attr name="divisionLineSize" format="color" />
+        <!-- 背景边框的颜色 -->
+        <attr name="bgColor" format="color" />
+        <!-- 背景边框的大小 -->
+        <attr name="bgSize" format="dimension" />
+        <!-- 背景边框的圆角大小 -->
+        <attr name="bgCorner" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RatingBar">
+        <!--星星间距-->
+        <attr format="dimension" name="starDistance"/>
+        <!--星星大小-->
+        <attr format="dimension" name="starSize"/>
+        <!--星星个数-->
+        <attr format="integer" name="starCount"/>
+        <!--星星空图-->
+        <attr format="reference" name="starEmpty"/>
+        <!--星星满图-->
+        <attr format="reference" name="starFill"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SimpleRatingBar">
+        <!--设置正常状态下的星形边框颜色-->
+        <attr format="color" name="srb_borderColor"/>
+        <!--设置正常状态设置星星填充颜色-->
+        <attr format="color" name="srb_fillColor"/>
+        <!--设置正常状态下额定条的背景颜色-->
+        <attr format="color" name="srb_backgroundColor"/>
+        <!--用正常状态设置星星背景颜色-->
+        <attr format="color" name="srb_starBackgroundColor"/>
+        <!--在按下状态设置星级边框颜色-->
+        <attr format="color" name="srb_pressedBorderColor"/>
+        <!--设置星形填充颜色处于按下状态-->
+        <attr format="color" name="srb_pressedFillColor"/>
+        <!--用压力状态设置额定条的背景颜色-->
+        <attr format="color" name="srb_pressedBackgroundColor"/>
+        <!--在压制状态下设置星星背景颜色-->
+        <attr format="color" name="srb_pressedStarBackgroundColor"/>
+        <!--设置星数-->
+        <attr format="integer" name="srb_numberOfStars"/>
+        <!--设置星星大小-->
+        <attr format="dimension" name="srb_starSize"/>
+        <!--设置最大星号-->
+        <attr format="dimension" name="srb_maxStarSize"/>
+        <!--设置边框宽度-->
+        <attr format="dimension" name="srb_starsSeparation"/>
+        <attr format="float" name="srb_starBorderWidth"/>
+        <attr format="float" name="srb_starCornerRadius"/>
+        <!--启用/禁用用户的交互-->
+        <attr format="boolean" name="srb_isIndicator"/>
+        <!--设置星数-->
+        <attr format="float" name="srb_rating"/>
+        <attr format="float" name="srb_stepSize"/>
+        <attr format="boolean" name="srb_drawBorderEnabled"/>
+        <!-- 设置填充方向（左或右）-->
+        <attr format="enum" name="srb_gravity">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="SkyRoundCornerLayout">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="topEnabled" format="boolean" />
+        <attr name="bottomEnabled" format="boolean" />
+        <attr name="topLeftEnabled" format="boolean" />
+        <attr name="topRightEnabled" format="boolean" />
+        <attr name="bottomLeftEnabled" format="boolean" />
+        <attr name="bottomRightEnabled" format="boolean" />
+    </declare-styleable>
+
+
+
+</resources>

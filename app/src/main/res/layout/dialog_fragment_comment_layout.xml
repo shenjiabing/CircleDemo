@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="bottom|center"
+              android:background="@color/background_my_material_light">
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/edit_comment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:gravity="top|center_vertical"
+            android:layout_margin="10dp"
+            android:hint="添加评论..."
+            android:maxHeight="75dp"
+            android:textColorHint="@color/tv_gray_999999"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/image_btn_comment_send2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_default_avatar"/>
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@color/background_my_material_light">
+        <EditText
+            android:id="@+id/edit_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="top|center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:maxHeight="80dp"
+            android:hint="说点什么..."
+            android:textColorHint="#999999"
+            android:textSize="12sp"/>
+
+
+        <ImageView
+            android:id="@+id/image_btn_comment_send"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_send"
+            android:tint="#A80015"
+            android:layout_marginRight="10dp"
+            android:tintMode="multiply"/>
+    </LinearLayout>
+
+</LinearLayout>
